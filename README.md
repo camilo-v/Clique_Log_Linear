@@ -1,4 +1,4 @@
-# Clique_Log_Linear
+# Clique Log-Linear Models
 Statistical Dependence in Microbiomes using Clique Log-Linear Models.
 
 ## How To Get Started
