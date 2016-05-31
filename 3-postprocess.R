@@ -72,7 +72,7 @@ shortLabels = sapply(seq_len(ncol(strains)),function(x) { paste('S',x,sep='') })
 print( shortLabels )	# Should be number of columns
 
 print( paste( "[", format(Sys.time(), "%m/%d/%y %H:%M:%S"),"] Writing Short to Actual Annotations...", sep="") )
-fileWithShortAnnotations = paste( outputDirForGroup, nChainIterations, "-/shortTOactualAnnotation.csv", sep="" )
+fileWithShortAnnotations = paste( outputDirForGroup, "/", nChainIterations, "-shortTOactualAnnotation.csv", sep="" )
 write.csv(cbind( matrix( shortLabels, ncol=1 ), matrix( colnames( strains ), ncol=1 ) ), file=fileWithShortAnnotations )
 
 
