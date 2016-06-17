@@ -101,6 +101,8 @@ input_matrix_2		= opt$matrix_2
 #	defines the output folder structure.
 #	Original from Adrian's version was 100,000
 #
+#	Length of the Chain
+#
 nChainIterations = opt$chain_iterations
 
 
