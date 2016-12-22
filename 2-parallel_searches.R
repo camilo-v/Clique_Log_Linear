@@ -61,7 +61,10 @@ gMaxMat = as.matrix(gMax)
 #		6) Reap the worker processes at the end, i.e., shut them down.
 #
 
-# 	Also sets the number of random starting clique graphs.
+#
+# 	Also sets the number of Random Starting Clique Graphs.
+# 	Number of Chain Iterations comes from a command line argument
+#
 processIDs = seq(from=1,to=100,by=1)
 
 #	Size of the cluster should match the number of random clique graphs.
